@@ -17,3 +17,9 @@ docker run -idt --name ngrok-server \
 -v /data/ngrok:/myfiles \
 -e DOMAIN='tunnel.hteen.cn' hteen/ngrok /bin/sh /server.sh
 ```
+
+## USE DOCKER-COMPOSE
+change port on docker-compose.yml
+```linux
+docker-compose up -d
+```
